@@ -1,0 +1,106 @@
+/* RESET DEFAULT BROWSER STYLES */
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+html{
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    line-height: 1.6;
+    background-image: linear-gradient(to right bottom, rgb(32, 165, 218) , rgb(32, 15, 43));
+    background-repeat: no-repeat;
+    margin-bottom: 40%;
+  }
+
+.page_heading{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    color:mediumblue;
+    text-shadow: 2px 2px 2px black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.container{
+    width: 80%;
+    margin: 2rem auto;
+    background-image: url(../images/blue-sky-cloud.jpg);
+    background-repeat: no-repeat;
+    height: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    display: block;
+}
+
+#submitButton{
+    color: blueviolet;
+    background-color: darkgoldenrod;
+    border: 2px solid darkgray;
+    border-radius: 15%;
+}
+
+#testDataForm{
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    color:white;
+    margin-left: 30%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+.weather__table__head{
+    width: 96%;
+    margin: 1%;
+    display: flex;
+    align-content: ;
+}
+.weather__table{
+    width: 96%;
+    margin: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: .5rem;
+}
+
+.tableHead{
+    display: flex;
+    align-self:stretch;
+    width: 20%;
+    color: midnightblue;
+    font-size: 25px;
+    padding-right: 1%;
+    padding-left: 1%;; 
+}
+
+.tableRow{
+    color: black;
+}
+.tableRow1{
+    color: white;
+    padding: 2%;
+    font-size: 18px;
+}
+
+.weather__img{
+    width: 100%;
+    height: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.weather-list{
+    text-align: right;
+    font-size: x-small;
+}
+.weather__row__5{
+    vertical-align: text-top;
+}

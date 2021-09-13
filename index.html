@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Weather App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="js/main.js" defer></script>
+</head>
+<body>
+    <h1 class="page_heading">Current Weather</h1>
+
+    <div>
+        <form name="testData" id="testDataForm">
+            <label for="season">CITY:</label>
+            <input type="text" name="city_input" id="city">
+
+            <button class="submit" id="submit_btn">SEARCH</button>
+        </form>
+    </div>
+    <div class="container">
+        <div class="weather__table__head">
+            <div class="tableHead weather__haed__1">CITY</div>
+            <div class="tableHead weather__haed__2">CURRENT</div>
+            <div class="tableHead weather__haed__3">HIGH</div>
+            <div class="tableHead weather__haed__4">LOW</div>
+            <div class="tableHead weather__haed__5">FORECAST</div>
+            <div class="tableHead weather__haed__6">HUMIDITY</div>
+        </div>
+        <div class="weather__table table_row_1">
+            <div class="tableRow1 weather__row__1" id="1_1"></div>
+            <div class="tableRow1 weather__row__2" id="1_2"></div>
+            <div class="tableRow1 weather__row__3" id="1_3"></div>
+            <div class="tableRow1 weather__row__4" id="1_4"></div>
+            <div class="tableRow1 weather__row__5" id="1_5"></div>
+            <div class="tableRow1 weather__row__6" id="1_6"></div>
+        </div>
+        <div class="weather__table table_row_2">
+            <div class="tableRow weather__row__1" id="2_1"></div>
+            <div class="tableRow weather__row__2" id="2_2"></div>
+            <div class="tableRow weather__row__3" id="2_3"></div>
+            <div class="tableRow weather__row__4" id="2_4"></div>
+            <div class="tableRow weather__row__5" id="2_5"></div>
+            <div class="tableRow weather__row__6" id="2_6"></div>
+        </div>
+        <div class="weather__table table_row_3">
+            <div class="tableRow weather__row__1" id="3_1"></div>
+            <div class="tableRow weather__row__2" id="3_2"></div>
+            <div class="tableRow weather__row__3" id="3_3"></div>
+            <div class="tableRow weather__row__4" id="3_4"></div>
+            <div class="tableRow weather__row__5" id="3_5"></div>
+            <div class="tableRow weather__row__6" id="3_6"></div>
+        </div>
+        <div class="weather__table table_row_4">
+            <div class="tableRow weather__row__1" id="4_1"></div>
+            <div class="tableRow weather__row__2" id="4_2"></div>
+            <div class="tableRow weather__row__3" id="4_3"></div>
+            <div class="tableRow weather__row__4" id="4_4"></div>
+            <div class="tableRow weather__row__5" id="4_5"></div>
+            <div class="tableRow weather__row__6" id="4_6"></div>
+        </div>
+        <div class="weather__table table_row_5">
+            <div class="tableRow weather__row__1" id="5_1"></div>
+            <div class="tableRow weather__row__2" id="5_2"></div>
+            <div class="tableRow weather__row__3" id="5_3"></div>
+            <div class="tableRow weather__row__4" id="5_4"></div>
+            <div class="tableRow weather__row__5" id="5_5"></div>
+            <div class="tableRow weather__row__6" id="5_6"></div>
+        </div>
+        <div class="weather__table table_row_5">
+            <div class="tableRow weather__row__1" id="6_1"></div>
+            <div class="tableRow weather__row__2" id="6_2"></div>
+            <div class="tableRow weather__row__3" id="6_3"></div>
+            <div class="tableRow weather__row__4" id="6_4"></div>
+            <div class="tableRow weather__row__5" id="6_5"></div>
+            <div class="tableRow weather__row__6" id="6_6"></div>
+        </div>
+        <section class="weather-list">
+            <a href='https://www.freepik.com/photos/background'>Background photo created by jigsawstocker - www.freepik.com</a>
+        </section>
+    </div>
+</body>
+</html>
